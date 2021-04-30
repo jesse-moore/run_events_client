@@ -1,3 +1,10 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import url(./base.css);
+@import url(./component.css);
+@import url(./utilities.css);
+
+.blur {
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+    -o-backdrop-filter: blur(4px);
+    -moz-backdrop-filter: blur(4px);
+}
