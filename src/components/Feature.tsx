@@ -4,7 +4,7 @@ export const Feature = ({
     children,
     index = 0,
 }: {
-    children: JSX.Element | string;
+    children: React.ReactNode;
     index?: number;
 }) => {
     let rowClassName = '';

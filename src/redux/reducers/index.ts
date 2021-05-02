@@ -1,4 +1,4 @@
-import ui, { uiState, uiInitialState } from './ui';
+import ui, { uiInitialState } from './ui';
 
 const reducer = { ui };
 export default reducer;

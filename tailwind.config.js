@@ -18,6 +18,7 @@ module.exports = {
             lightBlue: colors.lightBlue,
             darkBlue: colors.darkBlue,
             green: colors.green,
+            orange: colors.orange,
         },
         extend: {
             height: {
@@ -27,6 +28,7 @@ module.exports = {
                 350: '350px',
             },
             width: {
+                550: '550px',
                 500: '500px',
                 450: '450px',
                 400: '400px',
@@ -37,5 +39,6 @@ module.exports = {
     variants: {
         extend: {},
     },
-    plugins: [require('@tailwindcss/forms')],
+    // plugins: [require('@tailwindcss/forms')],
+    plugins: [],
 };

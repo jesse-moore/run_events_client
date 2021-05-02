@@ -10,12 +10,13 @@ module.exports = {
                     'variants',
                     'responsive',
                     'screen',
-					'indentation'
+                    'indentation',
                 ],
             },
         ],
         'declaration-block-trailing-semicolon': null,
         'no-descending-specificity': null,
         indentation: null,
+        'value-keyword-case': null,
     },
-}
+};

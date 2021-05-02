@@ -1,5 +1,6 @@
 import React from 'react';
 import { Home } from './pages/Home';
+import { EventEdit } from './pages/EventEdit';
 import { NarBar } from './components/NarBar';
 
 function App() {
@@ -7,7 +8,8 @@ function App() {
         <div className="">
             <NarBar />
             <header className="App-header"></header>
-            <Home />
+            {/* <Home /> */}
+            <EventEdit />
         </div>
     );
 }
